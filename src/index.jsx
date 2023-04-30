@@ -5,13 +5,21 @@ import './index.scss';
 import About from './about.jsx';
 import Projects from './projects.jsx';
 import Contact from './contact.jsx';
+import Nav from './navbar.jsx';
 
 function App() {
+  const aboutRef = useRef();
+  const projectsRef = useRef();
+  const contactRef = useRef();
+
   return (
     <div className="app">
-      <div><About /></div>
-      <div><Projects /></div>
-      <div><Contact /></div>
+      <div><Nav aboutRef={aboutRef} projectsRef={projectsRef} contactRef={contactRef} /></div>
+      <div className="sections">
+      <div ref={aboutRef}><About /></div>
+      <div ref={projectsRef}><Projects /></div>
+      <div ref={contactRef}><Contact /></div>
+      </div>
     </div>
   );
 }

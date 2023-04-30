@@ -4305,6 +4305,11 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
+useref@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/useref/-/useref-1.4.4.tgz#fb32138982d69b38e7757779235f1dd80a2517fd"
+  integrity sha512-Hcr9SSq1OsLSa9VAVtA28j8HrpFB2AdbRAkFPbBArDe6y54jQmgulQRxphdi5TAjVPj0mmEJfjBUuZArsmfsqQ==
+
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
